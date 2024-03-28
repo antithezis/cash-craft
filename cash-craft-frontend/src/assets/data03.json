@@ -1,0 +1,99 @@
+{
+  "initial": 2833000,
+  "incomes": {
+    "salary": [
+      {
+        "date": "2024-29-02",
+        "description": "Primera quincena",
+        "amount": 2770000
+      }
+    ],
+    "debts": [
+      {
+        "date": "2024-03-02",
+        "description": "Qbano",
+        "amount": 59800
+      },
+      {
+        "date": "2024-03-02",
+        "description": "Qbano",
+        "amount": 59800
+      },
+      {
+        "date": "2024-03-02",
+        "description": "Qbano",
+        "amount": 59800
+      },
+      {
+        "date": "2024-03-02",
+        "description": "Qbano",
+        "amount": 59800
+      }
+    ]
+  },
+  "spents": {
+    "bike": [
+      {
+        "date": "2024-03-04",
+        "description": "Parqueadero",
+        "amount": 70000
+      },
+      {
+        "date": "2024-03-04",
+        "description": "Seguro",
+        "amount": 165000
+      },
+       {
+        "date": "2024-03-04",
+        "description": "Comida bivhas",
+        "amount": 300000
+      }
+    ],
+    "loans": [
+      {
+        "date": "2024-03-11",
+        "description": "R15 Puentes Marzo",
+        "amount": 1000000
+      }
+    ],
+    "food": [
+      {
+        "date": "2024-03-02",
+        "description": "Qbano",
+        "amount": 59800
+      },
+      {
+        "date": "2024-03-02",
+        "description": "Brasa roja",
+        "amount": 47900
+      }
+    ],
+    "entertainment": [
+      {
+        "date": "2016-01-01",
+        "description": "Movie",
+        "amount": 200
+      }
+    ],
+    "home": [
+      {
+        "date": "2024-03-04",
+        "description": "Arena gato",
+        "amount": 38300
+      },
+      {
+        "date": "2024-03-02",
+        "description": "Adelanto Mom",
+        "amount": 350000
+      }
+
+    ],
+    "subscriptions": [
+      {
+        "date": "2024-03-04",
+        "description": "Tigo",
+        "amount": 40000
+      }
+    ]
+  }
+}
