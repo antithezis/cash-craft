@@ -1,3 +1,14 @@
 @import "primeng/resources/themes/mdc-dark-deeppurple/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #1a2037;
+  --sidebar-text-color: #e4e2e2;
+  --bg-color: #283151;
+}

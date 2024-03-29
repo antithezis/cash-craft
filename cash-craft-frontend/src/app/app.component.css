@@ -1,0 +1,7 @@
+app-sidebar {
+  display: flex;
+  gap: 3rem;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+ }

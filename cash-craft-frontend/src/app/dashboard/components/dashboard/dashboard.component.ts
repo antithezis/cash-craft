@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { CalendarModule } from 'primeng/calendar';
+
+const primeNgModules = [CalendarModule];
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'Dashboard',
   standalone: true,
-  imports: [],
-  template: `
-
-  `,
-  styles: ``,
+  imports: [...primeNgModules, FormsModule],
+  templateUrl: './dashboard.component.html',
 })
 export class DashboardComponent {
-
+  date: any;
 }

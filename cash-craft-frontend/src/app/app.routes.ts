@@ -1,4 +1,3 @@
-import { DASHBOARD_ROUTES } from './dashboard/dashboard.routes';
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [
@@ -11,5 +10,5 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./dashboard/dashboard.routes').then((r) => r.DASHBOARD_ROUTES),
   },
-  { path: '**', redirectTo: '' },
+  // { path: '**', redirectTo: '' },
 ];
