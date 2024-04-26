@@ -11,4 +11,5 @@
   --main-color: #1a2037;
   --sidebar-text-color: #e4e2e2;
   --bg-color: #283151;
+  --sidebar-width: min-content;
 }

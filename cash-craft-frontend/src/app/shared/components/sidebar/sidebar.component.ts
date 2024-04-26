@@ -1,6 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
+interface MenuItem {
+  icon: string;
+  label: string;
+  routerLink: string[];
+}
+
 @Component({
   selector: 'app-sidebar',
   standalone: true,
@@ -9,36 +15,31 @@ import { RouterModule } from '@angular/router';
   styleUrl: './sidebar.component.css',
 })
 export class SidebarComponent {
-  menuItems: any[] = [
+  menuItems: MenuItem[] = [
     {
       icon: 'pi pi-home',
       label: 'Dashboard',
-      routerLink: '/',
+      routerLink: ['/'],
     },
     {
       icon: 'pi pi-bookmark',
       label: 'Bookmarks',
-      routerLink: '/bookmarks',
+      routerLink: ['/bookmarks'],
     },
     {
       icon: 'pi pi-users',
       label: 'Team',
-      routerLink: '/team',
+      routerLink: ['/team'],
     },
     {
       icon: 'pi pi-comments',
       label: 'Messages',
-      routerLink: '/messages',
+      routerLink: ['/messages'],
     },
     {
       icon: 'pi pi-calendar',
       label: 'Calendar',
-      routerLink: '/calendar',
-    },
-    {
-      icon: 'pi pi-cog',
-      label: 'Settings',
-      routerLink: '/settings',
-    },
+      routerLink: ['/calendar'],
+    }
   ];
 }
